@@ -119,3 +119,9 @@
 &right_encoder {
     status = "disabled";
 };
+
+/ {
+  chosen {
+    zmk,matrix_transform = &default_transform;
+  };
+};
